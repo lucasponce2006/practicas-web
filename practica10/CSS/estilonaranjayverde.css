@@ -1,0 +1,118 @@
+
+/* ===== ESTILO GENERAL ===== */
+
+body{
+	background: linear-gradient(to bottom, #fff4e6, #d8f3dc);
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #2d2d2d;
+}
+
+
+/* ===== TITULOS ===== */
+
+h1{
+	background-color: #ff7b00;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	margin: 0;
+	font-size: 50px;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+h2{
+	color: #2d6a4f;
+	margin-left: 20px;
+	font-size: 32px;
+}
+
+
+/* ===== MENU ===== */
+
+.menu{
+	list-style: none;
+	background-color: #2d6a4f;
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+}
+
+.menu li{
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 18px;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+.menu a:hover{
+	background-color: #ff7b00;
+	color: white;
+}
+
+
+/* ===== TEXTOS ===== */
+
+.texto{
+	background-color: rgba(255,255,255,0.7);
+	margin: 20px;
+	padding: 20px;
+	border-left: 8px solid #ff7b00;
+	border-radius: 15px;
+	font-size: 20px;
+	line-height: 1.7;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+/* ===== DESTACADOS ===== */
+
+.destacado{
+	background-color: #ffe8cc;
+	border-left: 8px solid #2d6a4f;
+}
+
+
+/* ===== IMAGENES ===== */
+
+img{
+	display: block;
+	margin: 30px auto;
+	border-radius: 20px;
+	box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+	border: 5px solid #ff7b00;
+	max-width: 90%;
+}
+
+
+/* ===== CAJAS ===== */
+
+.caja{
+	background-color: white;
+	margin: 30px;
+	padding: 25px;
+	border-radius: 20px;
+	box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+}
+
+
+/* ===== PIE DE PAGINA ===== */
+
+footer{
+	background-color: #2d6a4f;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+	font-size: 18px;
+}
