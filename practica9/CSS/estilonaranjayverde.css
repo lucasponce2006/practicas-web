@@ -1,0 +1,197 @@
+
+/* 
+========================================
+DECLARACIÓN DE USO DE IA
+
+Este archivo CSS fue realizado con ayuda de Inteligencia Artificial.
+La IA utilizó la estructura HTML existente del sitio:
+- clases (.menu, .texto, .destacado)
+- ids (#titulo y #titulo2)
+- imágenes
+- menú de navegación
+
+La propuesta combina:
+- la paleta naranja y verde del diseño original,
+- con mejoras visuales modernas como sombras,
+gradientes, animaciones y efectos hover.
+
+Comparación:
+El CSS original era más simple y minimalista.
+La nueva versión mantiene la legibilidad pero agrega
+una estética más profesional y dinámica.
+
+Conclusión:
+La combinación entre el diseño propio y el generado por IA
+permitió lograr un sitio más atractivo visualmente sin perder organización.
+========================================
+*/
+
+
+/* ===== ESTILO GENERAL ===== */
+
+body{
+	background: linear-gradient(to bottom, #fff4e6, #d8f3dc);
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #2d2d2d;
+}
+
+
+/* ===== TITULOS ===== */
+
+h1{
+	background: linear-gradient(to right, #ff7b00, #ff9500);
+	color: white;
+	text-align: center;
+	padding: 30px;
+	margin: 0;
+	font-size: 55px;
+	letter-spacing: 4px;
+	text-shadow: 3px 3px 8px rgba(0,0,0,0.35);
+	box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+h2{
+	color: #2d6a4f;
+	margin-left: 20px;
+	font-size: 34px;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+
+/* ===== IDS ===== */
+
+#titulo{
+	border-bottom: 5px solid #2d6a4f;
+}
+
+#titulo2{
+	background: linear-gradient(to right, #2d6a4f, #40916c);
+}
+
+
+/* ===== MENU ===== */
+
+.menu{
+	list-style: none;
+	background-color: rgba(45,106,79,0.95);
+	padding: 18px;
+	margin: 0;
+	text-align: center;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+	position: sticky;
+	top: 0;
+}
+
+.menu li{
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 12px 20px;
+	border-radius: 12px;
+	transition: 0.4s;
+}
+
+.menu a:hover{
+	background-color: #ff7b00;
+	color: white;
+	box-shadow: 0 0 12px rgba(255,123,0,0.6);
+	transform: scale(1.05);
+}
+
+
+/* ===== TEXTOS ===== */
+
+.texto{
+	background-color: rgba(255,255,255,0.8);
+	margin: 30px auto;
+	padding: 25px;
+	width: 80%;
+	border-left: 8px solid #ff7b00;
+	border-radius: 18px;
+	font-size: 20px;
+	line-height: 1.8;
+	box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+	transition: 0.3s;
+}
+
+.texto:hover{
+	transform: translateY(-4px);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.18);
+}
+
+
+/* ===== DESTACADOS ===== */
+
+.destacado{
+	background-color: #ffe8cc;
+	border-left: 8px solid #2d6a4f;
+	border: 2px dashed #ff7b00;
+}
+
+
+/* ===== SUBTITULOS ===== */
+
+.subtitulo{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 36px;
+}
+
+
+/* ===== IMAGENES ===== */
+
+img{
+	display: block;
+	margin: 35px auto;
+	border-radius: 25px;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+	border: 6px solid #ff7b00;
+	max-width: 85%;
+	transition: 0.4s;
+}
+
+img:hover{
+	transform: scale(1.03);
+	border-color: #2d6a4f;
+}
+
+
+/* ===== LISTAS ===== */
+
+ul{
+	font-size: 19px;
+	line-height: 1.8;
+}
+
+
+/* ===== CAJAS ===== */
+
+.caja{
+	background-color: white;
+	margin: 30px auto;
+	padding: 30px;
+	width: 80%;
+	border-radius: 22px;
+	box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+
+/* ===== PIE DE PAGINA ===== */
+
+footer{
+	background-color: #2d6a4f;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	margin-top: 50px;
+	font-size: 18px;
+	letter-spacing: 1px;
+}

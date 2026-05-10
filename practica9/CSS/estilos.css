@@ -1,0 +1,38 @@
+/* SELECTORES DE ETIQUETA */
+body{
+	background-color: lightgreen;
+	font-family: Arial;
+}
+
+h1{
+	color: darkgreen;
+}
+
+
+/* SELECTORES DE ID */
+#titulo{
+	text-align: center;
+}
+
+#titulo2{
+	color: green;
+}
+
+
+/* SELECTORES DE CLASE */
+.menu{
+	background-color: wheat;
+	padding: 10px;
+}
+
+.texto{
+	font-size: 20px;
+}
+
+.subtitulo{
+	color: green;
+}
+
+.destacado{
+	background-color: greenyellow;
+}
